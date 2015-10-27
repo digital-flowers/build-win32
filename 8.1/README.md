@@ -220,4 +220,38 @@ And package your new version.
 I suggest you rename your zip to avoid confusion. Call it something like
 vips-dev-7.42.0-rob1.zip.
 
-- remove strcasecmp() hacks from cfitsio, see "eval_l.c"
+Win64 builds
+------------
+
+Run these commands for a 64-bit Windows binary
+
+	./get-win64-packages.sh 
+	./unpack64.sh
+
+edit inst/bin/glib-mkenums as above
+
+	jhbuild --file=jhbuildrc64 --moduleset=vips.modules build libvips
+
+for a quick test, try:
+
+	jhbuild --file=jhbuildrc64 --moduleset=vips.modules build libgsf
+
+since that needs 64-bit gobject etc. 
+
+	jhbuild --file=jhbuildrc64 --moduleset=vips.modules build fftw3
+
+check that it makes a 64-bit binary (should see PE32+ with file)
+
+
+libgsf fails to build ...
+
+	.libs/gsf-open-pkg-utils.o:gsf-open-pkg-utils.c:(.text+0x14bf): 
+	undefined reference to `g_slist_free_full'
+
+g_slist_free_full() was added in glib 2.28
+
+looks like there are not official win binaries for recent glib, we will need
+to make the whole stack ourselves
+
+can we make glib easily? you'd think there was a standard def for it
+
