@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/data/checkout/ImageMagick-6.8.9-10'
+top_builddir='/data/checkout/ImageMagick-6.8.9-10'
+
+set -a
+COMPARE="/data/checkout/ImageMagick-6.8.9-10/utilities/compare"
+COMPOSITE="/data/checkout/ImageMagick-6.8.9-10/utilities/composite"
+CONJURE="/data/checkout/ImageMagick-6.8.9-10/utilities/conjure"
+CONVERT="/data/checkout/ImageMagick-6.8.9-10/utilities/convert"
+DISPLAY="/data/checkout/ImageMagick-6.8.9-10/utilities/display"
+IDENTIFY="/data/checkout/ImageMagick-6.8.9-10/utilities/identify"
+MONTAGE="/data/checkout/ImageMagick-6.8.9-10/utilities/montage" 
+VALIDATE="/data/checkout/ImageMagick-6.8.9-10/tests/validate"
+DRAWTEST="/data/checkout/ImageMagick-6.8.9-10/tests/drawtest"
+WANDTEST="/data/checkout/ImageMagick-6.8.9-10/tests/wandtest"
+LD_LIBRARY_PATH="/data/checkout/ImageMagick-6.8.9-10/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/data/checkout/ImageMagick-6.8.9-10/coders"
+MAGICK_CONFIGURE_PATH="/data/checkout/ImageMagick-6.8.9-10/config:/data/checkout/ImageMagick-6.8.9-10/config"
+MAGICK_FILTER_MODULE_PATH="/data/checkout/ImageMagick-6.8.9-10/filters"
+PATH="/data/checkout/ImageMagick-6.8.9-10/utilities:/data/checkout/ImageMagick-6.8.9-10/tests:${PATH}"
+set +a

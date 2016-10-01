@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuremap [
+<!ELEMENT configuremap (configure)+>
+<!ELEMENT configure (#PCDATA)>
+<!ATTLIST configure name CDATA #REQUIRED>
+<!ATTLIST configure value CDATA #REQUIRED>
+]>
+<configuremap>
+  <configure name="CC" value="i686-w64-mingw32-gcc-win32 -std=gnu99 -std=gnu99"/>
+  <configure name="CFLAGS" value="-I/data/inst/include/openjpeg-2.1 -I/data/inst/include/freetype2 -mms-bitfields -march=x86-64 -I/data/inst/include -O2 -Wall -fexceptions -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16"/>
+  <configure name="CODER_PATH" value="/data/inst/lib/ImageMagick-6.8.9/modules-Q16/coders"/>
+  <configure name="CONFIGURE_PATH" value="/data/inst/etc/ImageMagick-6/"/>
+  <configure name="CONFIGURE" value="./configure  '--prefix' '/data/inst' '--libdir' '/data/inst/lib' '--without-threads' '--without-x' '--with-modules=no' '--with-openexr=no' '--without-gvc' '--without-lqr' '--without-magick-plus-plus' '--disable-largefile' '--without-rsvg' '--disable-openmp' '--build=x86_64-pc-linux-gnu' '--host=i686-w64-mingw32' '--target=i686-w64-mingw32' '--disable-debug' '--enable-all-warnings' 'AR=i686-w64-mingw32-ar' 'RANLIB=i686-w64-mingw32-ranlib' 'STRIP=i686-w64-mingw32-strip' 'AS=i686-w64-mingw32-as' 'DLLTOOL=i686-w64-mingw32-dlltool' 'OBJDUMP=i686-w64-mingw32-objdump' 'NM=i686-w64-mingw32-nm' 'WINDRES=i686-w64-mingw32-windres' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=i686-w64-mingw32' 'target_alias=i686-w64-mingw32' 'CC=i686-w64-mingw32-gcc-win32' 'CFLAGS=-mms-bitfields -march=x86-64 -I/data/inst/include -O2 ' 'LDFLAGS=-L/data/inst/lib -L/data/inst/lib' 'CPPFLAGS=-I/data/inst/include' 'CPP=i686-w64-mingw32-cpp-win32' 'CXX=i686-w64-mingw32-g++-win32' 'CXXFLAGS=-mms-bitfields -march=x86-64 -O2 ' 'PKG_CONFIG=/usr/bin/pkg-config --define-variable prefix=/data/inst'"/>
+  <configure name="COPYRIGHT" value="Copyright (C) 1999-2014 ImageMagick Studio LLC"/>
+  <configure name="CPPFLAGS" value="-I/data/inst/include/ImageMagick-6 -D_DLL"/>
+  <configure name="CXXFLAGS" value="-mms-bitfields -march=x86-64 -O2"/>
+  <configure name="CXX" value="i686-w64-mingw32-g++-win32"/>
+  <configure name="DEFS" value="-DHAVE_CONFIG_H"/>
+  <configure name="DELEGATES" value="mpeg fftw fontconfig freetype jpeg lcms openjp2 ps tiff zlib"/>
+  <configure name="DISTCHECK_CONFIG_FLAGS" value="'CC=i686-w64-mingw32-gcc-win32' 'CFLAGS=-mms-bitfields -march=x86-64 -I/data/inst/include -O2 ' 'CPPFLAGS=-I/data/inst/include' 'CXX=i686-w64-mingw32-g++-win32' 'LDFLAGS=-L/data/inst/lib -L/data/inst/lib' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-gslib=no --with-fontpath= --with-gvc=no --with-lqr=no --with-openexr=no --with-rsvg=no --with-wmf=no --with-perl=no"/>
+  <configure name="DOCUMENTATION_PATH" value="/data/inst/share/doc/ImageMagick-6"/>
+  <configure name="EXEC-PREFIX" value="/data/inst"/>
+  <configure name="EXECUTABLE_PATH" value="/data/inst/bin"/>
+  <configure name="FEATURES" value=""/>
+  <configure name="FILTER_PATH" value="/data/inst/lib/ImageMagick-6.8.9/modules-Q16/filters"/>
+  <configure name="HOST" value="i686-w64-mingw32"/>
+  <configure name="INCLUDE_PATH" value="/data/inst/include/ImageMagick-6"/>
+  <configure name="LDFLAGS" value="-L/data/inst/lib -L/data/inst/lib -L/data/inst/lib"/>
+  <configure name="LIBRARY_PATH" value="/data/inst/lib/ImageMagick-6.8.9"/>
+  <configure name="LIBS" value="-llcms2 -ltiff -L/data/inst/lib -lfreetype -ljpeg -lfftw3 -L/data/inst/lib -lfontconfig -L/data/inst/lib/x86_64-linux-gnu -lopenjp2 -lz -lgdi32 -lm"/>
+  <configure name="LIB_VERSION_NUMBER" value="6,8,9,10"/>
+  <configure name="LIB_VERSION" value="0x689"/>
+  <configure name="NAME" value="ImageMagick"/>
+  <configure name="PCFLAGS" value="-DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -D_DLL"/>
+  <configure name="PREFIX" value="/data/inst"/>
+  <configure name="QuantumDepth" value="16"/>
+  <configure name="RELEASE_DATE" value="2016-09-30"/>
+  <configure name="SHAREARCH_PATH" value="/data/inst/lib/ImageMagick-6.8.9/config-Q16"/>
+  <configure name="SHARE_PATH" value="/data/inst/share/ImageMagick-6"/>
+  <configure name="SVN_REVISION" value="16910" />
+  <configure name="TARGET_CPU" value="i686"/>
+  <configure name="TARGET_OS" value="mingw32"/>
+  <configure name="TARGET_VENDOR" value="w64"/>
+  <configure name="VERSION" value="6.8.9"/>
+  <configure name="WEBSITE" value="http://www.imagemagick.org"/>
+</configuremap>

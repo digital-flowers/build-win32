@@ -1,0 +1,305 @@
+filters/magick_libMagickCore_6_Q16_la-analyze.lo: filters/analyze.c \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/_mingw_print_push.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/i686-w64-mingw32/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/share/mingw-w64/include/_mingw_print_pop.h \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/lib/gcc/i686-w64-mingw32/4.9-win32/include-fixed/limits.h \
+ /usr/lib/gcc/i686-w64-mingw32/4.9-win32/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/share/mingw-w64/include/time.h \
+ /usr/share/mingw-w64/include/_timeval.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/share/mingw-w64/include/pthread_time.h \
+ /usr/share/mingw-w64/include/assert.h \
+ /usr/share/mingw-w64/include/math.h magick/MagickCore.h \
+ magick/magick-config.h magick/magick-baseconfig.h \
+ /usr/lib/gcc/i686-w64-mingw32/4.9-win32/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h \
+ /usr/share/mingw-w64/include/sys/types.h magick/method-attribute.h \
+ magick/magick-type.h magick/accelerate.h magick/fx.h magick/draw.h \
+ magick/geometry.h magick/image.h magick/color.h magick/pixel.h \
+ magick/colorspace.h magick/constitute.h magick/exception.h \
+ magick/semaphore.h magick/blob.h magick/stream.h magick/cache-view.h \
+ magick/composite.h magick/compress.h magick/effect.h magick/morphology.h \
+ magick/layer.h magick/locale_.h magick/hashmap.h magick/monitor.h \
+ magick/profile.h magick/string_.h magick/quantum.h magick/resample.h \
+ magick/resize.h magick/timer.h magick/type.h magick/statistic.h \
+ magick/animate.h magick/annotate.h magick/artifact.h magick/attribute.h \
+ magick/cache.h magick/channel.h magick/cipher.h magick/client.h \
+ magick/coder.h magick/colormap.h magick/compare.h magick/configure.h \
+ magick/decorate.h magick/delegate.h magick/deprecate.h magick/quantize.h \
+ magick/registry.h magick/display.h magick/distort.h \
+ magick/distribute-cache.h magick/enhance.h magick/feature.h \
+ magick/fourier.h magick/gem.h magick/random_.h magick/histogram.h \
+ magick/identify.h magick/image-view.h magick/list.h magick/log.h \
+ magick/magic.h magick/magick.h magick/matrix.h magick/memory_.h \
+ magick/module.h magick/version.h magick/mime.h magick/montage.h \
+ magick/opencl.h magick/option.h magick/paint.h magick/pixel-accessor.h \
+ magick/policy.h magick/prepress.h magick/property.h magick/resource_.h \
+ magick/segment.h magick/shear.h magick/signature.h magick/splay-tree.h \
+ magick/token.h magick/transform.h magick/threshold.h magick/utility.h \
+ magick/vision.h magick/xml-tree.h magick/xwindow.h
+
+/usr/share/mingw-w64/include/stdio.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/share/mingw-w64/include/_mingw_print_push.h:
+
+/usr/share/mingw-w64/include/_mingw_off_t.h:
+
+/usr/i686-w64-mingw32/include/swprintf.inl:
+
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/usr/share/mingw-w64/include/_mingw_print_pop.h:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/lib/gcc/i686-w64-mingw32/4.9-win32/include-fixed/limits.h:
+
+/usr/lib/gcc/i686-w64-mingw32/4.9-win32/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+/usr/share/mingw-w64/include/time.h:
+
+/usr/share/mingw-w64/include/_timeval.h:
+
+/usr/share/mingw-w64/include/sys/timeb.h:
+
+/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
+
+/usr/share/mingw-w64/include/pthread_time.h:
+
+/usr/share/mingw-w64/include/assert.h:
+
+/usr/share/mingw-w64/include/math.h:
+
+magick/MagickCore.h:
+
+magick/magick-config.h:
+
+magick/magick-baseconfig.h:
+
+/usr/lib/gcc/i686-w64-mingw32/4.9-win32/include/stdarg.h:
+
+/usr/share/mingw-w64/include/stdarg.h:
+
+/usr/share/mingw-w64/include/_mingw_stdarg.h:
+
+/usr/share/mingw-w64/include/sys/types.h:
+
+magick/method-attribute.h:
+
+magick/magick-type.h:
+
+magick/accelerate.h:
+
+magick/fx.h:
+
+magick/draw.h:
+
+magick/geometry.h:
+
+magick/image.h:
+
+magick/color.h:
+
+magick/pixel.h:
+
+magick/colorspace.h:
+
+magick/constitute.h:
+
+magick/exception.h:
+
+magick/semaphore.h:
+
+magick/blob.h:
+
+magick/stream.h:
+
+magick/cache-view.h:
+
+magick/composite.h:
+
+magick/compress.h:
+
+magick/effect.h:
+
+magick/morphology.h:
+
+magick/layer.h:
+
+magick/locale_.h:
+
+magick/hashmap.h:
+
+magick/monitor.h:
+
+magick/profile.h:
+
+magick/string_.h:
+
+magick/quantum.h:
+
+magick/resample.h:
+
+magick/resize.h:
+
+magick/timer.h:
+
+magick/type.h:
+
+magick/statistic.h:
+
+magick/animate.h:
+
+magick/annotate.h:
+
+magick/artifact.h:
+
+magick/attribute.h:
+
+magick/cache.h:
+
+magick/channel.h:
+
+magick/cipher.h:
+
+magick/client.h:
+
+magick/coder.h:
+
+magick/colormap.h:
+
+magick/compare.h:
+
+magick/configure.h:
+
+magick/decorate.h:
+
+magick/delegate.h:
+
+magick/deprecate.h:
+
+magick/quantize.h:
+
+magick/registry.h:
+
+magick/display.h:
+
+magick/distort.h:
+
+magick/distribute-cache.h:
+
+magick/enhance.h:
+
+magick/feature.h:
+
+magick/fourier.h:
+
+magick/gem.h:
+
+magick/random_.h:
+
+magick/histogram.h:
+
+magick/identify.h:
+
+magick/image-view.h:
+
+magick/list.h:
+
+magick/log.h:
+
+magick/magic.h:
+
+magick/magick.h:
+
+magick/matrix.h:
+
+magick/memory_.h:
+
+magick/module.h:
+
+magick/version.h:
+
+magick/mime.h:
+
+magick/montage.h:
+
+magick/opencl.h:
+
+magick/option.h:
+
+magick/paint.h:
+
+magick/pixel-accessor.h:
+
+magick/policy.h:
+
+magick/prepress.h:
+
+magick/property.h:
+
+magick/resource_.h:
+
+magick/segment.h:
+
+magick/shear.h:
+
+magick/signature.h:
+
+magick/splay-tree.h:
+
+magick/token.h:
+
+magick/transform.h:
+
+magick/threshold.h:
+
+magick/utility.h:
+
+magick/vision.h:
+
+magick/xml-tree.h:
+
+magick/xwindow.h:

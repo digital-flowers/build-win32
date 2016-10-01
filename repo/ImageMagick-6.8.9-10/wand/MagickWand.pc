@@ -1,0 +1,14 @@
+prefix=/data/inst
+exec_prefix=${prefix}
+libdir=/data/inst/lib
+includedir=${prefix}/include/ImageMagick-6
+includearchdir=/data/inst/include/ImageMagick-6
+libname=MagickWand-6.Q16
+ 
+Name: MagickWand
+Description: MagickWand - C API for ImageMagick (ABI Q16)
+Version: 6.8.9
+Requires: MagickCore
+Libs: -L${libdir} -l${libname} 
+Libs.private: -L${libdir} -l${libname} -llcms2 -ltiff -L/data/inst/lib -lfreetype -ljpeg -lfftw3 -L/data/inst/lib -lfontconfig -L/data/inst/lib/x86_64-linux-gnu -lopenjp2 -lz -lgdi32 -lm -lm
+Cflags: -I${includearchdir} -I${includedir} -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -D_DLL
