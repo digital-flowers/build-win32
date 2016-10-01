@@ -150,7 +150,7 @@
   <repository 
     type="tarball" 
     name="magick" 
-    href="ftp://ftp.imagemagick.org/pub/ImageMagick/releases/"
+    href="https://raw.githubusercontent.com/digital-flowers/build-win32/master/repo/"
   />
 
   <repository 
@@ -354,7 +354,7 @@
   <cmake id="openjpeg"
     cmakeargs="-DCMAKE_TOOLCHAIN_FILE=$BASEDIR/Toolchain-i686-w64-mingw32.cmake"
     >
-    <branch 
+    <branch
       repo="openjpeg"
       module="v2.1.1.tar.gz"
       checkoutdir="openjpeg-2.1"
@@ -505,6 +505,7 @@
       <dep package="fftw3"/>
       <dep package="tiff"/>
       <dep package="libjpeg-turbo"/>
+      <dep package="openjpeg"/>
     </dependencies>
   </autotools>
 
